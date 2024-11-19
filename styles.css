@@ -1,0 +1,196 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Body Styling */
+  body {
+    background-color: #f9f9f9;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  /* Header Styling */
+  header {
+    background-color: #4682b4; /* Steel blue background */
+    color: white;
+    padding: 40px 10%;
+    text-align: center;
+    border-bottom: 3px solid #fff;
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-direction: column; /* Centering the content vertically */
+  }
+  
+  header h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  header p {
+    font-size: 1.2em;
+    font-weight: 300;
+    margin-top: 10px;
+    opacity: 0.8;
+  }
+  
+  /* Student Image Styling */
+  .student-image {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border: 4px solid #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  /* Form Styling */
+  #registration-form {
+    background-color: #ffffff;
+    padding: 40px;
+    margin: 30px auto;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  #registration-form h2 {
+    text-align: center;
+    color: #333;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    font-weight: 500;
+  }
+  
+  #registration-form label {
+    display: block;
+    font-size: 1em;
+    color: #555;
+    margin: 10px 0 5px;
+  }
+  
+  #registration-form input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 1em;
+    transition: all 0.3s ease;
+  }
+  
+  #registration-form input:focus {
+    border-color: #4682b4;
+    outline: none;
+    box-shadow: 0 0 8px rgba(70, 130, 180, 0.4);
+  }
+  
+  /* Submit Button Styling */
+  #registration-form button {
+    width: 100%;
+    padding: 15px;
+    background-color: #4682b4;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  #registration-form button:hover {
+    background-color: #357ab7;
+  }
+  
+  #registration-form button:active {
+    background-color: #2a5c89;
+  }
+  
+  /* Students List Styling */
+  #students-list {
+    margin: 40px 10%;
+  }
+  
+  #students-list h2 {
+    text-align: center;
+    color: #333;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    font-weight: 500;
+  }
+  
+  #students-table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  #students-table th, #students-table td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+    color: #333;
+  }
+  
+  #students-table th {
+    background-color: #4682b4;
+    color: white;
+  }
+  
+  #students-table tr:nth-child(even) {
+    background-color: #f4f4f4;
+  }
+  
+  #students-table tr:hover {
+    background-color: #e6f1f9;
+  }
+  
+  #students-table td button {
+    padding: 8px 16px;
+    background-color: #32cd32;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  #students-table td button:hover {
+    background-color: #2c9c2c;
+  }
+  
+  #students-table td button:active {
+    background-color: #228822;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 2.2em;
+    }
+  
+    #registration-form {
+      width: 90%;
+      margin: 20px auto;
+    }
+  
+    #students-list {
+      margin: 20px;
+    }
+  }
+  
